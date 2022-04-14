@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h3 style="font-size: 20px;"> Tasks</h3>
+    <ul id="mylists">
+        
+    </ul>
+    <input type="text" id="mytexts">
+
+    <button onclick="createlist()">submit</button>
+</body>
+<script>
+var inputText = document.getElementById('mytexts');
+
+function createlist(){
+    var listnode = document.getElementById('mylists'),
+        textnode = document.createTextNode(inputText.value),
+        linode = document.createElement("LI");
+
+        linode.appendChild(textnode);
+        listnode.appendChild(linode);
+
+}
+
+ </script>
+</html>
