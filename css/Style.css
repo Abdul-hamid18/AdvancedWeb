@@ -1,0 +1,58 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+.nav_bar {
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.nav_bar table a {
+    padding: 10px;
+    text-decoration: none;
+    color: brown;
+}
+
+.nav_bar table a:hover {
+    color: darkturquoise;
+    border-bottom: 4px solid darkturquoise;
+}
+
+.content {
+    color: rgba(43, 37, 37, 0.816);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.content table,td {
+    padding: 5px;
+    margin: 0px;
+    
+}
+#edu_info table{
+    border: 3px;
+    border-collapse: collapse;
+    padding: 10px;
+    border-style: groove;
+}
+#edu_info td{
+    border: 3px;
+    border-collapse: collapse;
+    padding: 10px;
+    border-style: groove;
+}
+#edu_info th{
+    border: 3px;
+    border-collapse: collapse;
+    padding: 10px;
+    border-style: groove;
+}
